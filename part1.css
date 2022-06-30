@@ -1,0 +1,55 @@
+body{
+    background:url("C3.JPG") center no-repeat;
+    height:90vh;
+    background-size:cover;
+    }
+   
+    .menudropdown1{
+    width:80%;
+    height:100px;
+    margin:0px auto;
+   
+    }
+   
+    .menudropdown1 ul{
+    padding:0px;
+    }
+   
+    .menudropdown1 ul li{
+    border-style: solid;
+    border-radius: 20px;
+    border-color:crimson;
+    float:left;
+    background-color:pink;
+    color:blight burlywood;
+    width:180px;
+    height:45px;
+    line-height:50px;
+    font-size:25px;
+    text-align:center;
+    list-style:none;
+    opacity:0.6;
+    }
+   
+    .menudropdown1 ul li ul{
+    display:none;
+    }
+   
+    .menudropdown1 ul li:hover > ul{
+    display:block;
+    }
+   
+    .menudropdown1 ul li:hover{
+    background-color:gold;
+    opacity:0.9;
+    }
+   
+    .menudropdown1 ul li ul li{
+    position:relative;
+    }
+   
+    .menudropdown1 ul li ul li ul{
+    position:absolute;
+    left:200px;
+    top:0px;
+    }
